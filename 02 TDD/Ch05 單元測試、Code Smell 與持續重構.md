@@ -180,7 +180,8 @@ Module的資料與狀態綁在一起了，狀態又與狀態對應邏輯分開�
 3. printInitial與inputInitial抽出去給新類別InitialState
 4. 方法改名為input與output
 
-變成以下代碼
+變成以下代碼  
+
 ![Console Interaction](images/5-11-11.png)
 ![Console Interaction](images/5-11-12.png)
 ![Console Interaction](images/5-11-13.png)
