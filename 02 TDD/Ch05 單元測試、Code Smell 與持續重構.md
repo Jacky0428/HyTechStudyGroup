@@ -48,7 +48,8 @@
 1. 依照學生類別找到對應的計算方式
 2. 回傳計算機處理的結果
 
-![抽取介面](images/5-5-1.png)  
+![抽取介面](images/5-5-1.png) 
+
 抽了Calculate這個介面，原本三個計算工具也都變成Calculate。
 ## 將程式改寫成符合高階抽象邏輯的寫法
 將Calculate這個方法，正式改成符合依照學生類別找出對應計算出回傳結果。
@@ -180,7 +181,8 @@ Module的資料與狀態綁在一起了，狀態又與狀態對應邏輯分開�
 3. printInitial與inputInitial抽出去給新類別InitialState
 4. 方法改名為input與output
 
-變成以下代碼
+變成以下代碼  
+
 ![Console Interaction](images/5-11-11.png)
 ![Console Interaction](images/5-11-12.png)
 ![Console Interaction](images/5-11-13.png)
